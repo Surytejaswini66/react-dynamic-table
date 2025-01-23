@@ -20,7 +20,7 @@ function App() {
     },
   ]);
 
-  const [options1, setOptions1] = useState(initialOptions1);
+  const [options1] = useState(initialOptions1);
   const [options2, setOptions2] = useState(initialOptions2);
   const [newOption2, setNewOption2] = useState("");
   const [theme, setTheme] = useState("light");
